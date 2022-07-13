@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_26f2bce61dff7d760ff31152d66b877e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_26f2bce61dff7d760ff31152d66b877e" ></div>
+        
+</body>
+<script>    
+    
+            var map_26f2bce61dff7d760ff31152d66b877e = L.map(
+                "map_26f2bce61dff7d760ff31152d66b877e",
+                {
+                    center: [22.2002805559234, 113.54408541205513],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f2582ad4fac84f2b2613f94447539430 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var marker_cluster_ce6f6a697a24ebf47073fc6ab93fbc39 = L.markerClusterGroup(
+                {}
+            );
+            map_26f2bce61dff7d760ff31152d66b877e.addLayer(marker_cluster_ce6f6a697a24ebf47073fc6ab93fbc39);
+        
+    
+            var marker_6fcb2ba73a90555960e5220e5ea2d6d5 = L.marker(
+                [22.190374095907828, 113.5369363],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_98b8694438cbb0ab394f1519d3d71e55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_6fcb2ba73a90555960e5220e5ea2d6d5.setIcon(icon_98b8694438cbb0ab394f1519d3d71e55);
+        
+    
+        var popup_c27182b298da139b26f8622e37fc315f = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_ad39d805a467247623c58bcad2cf668f = $(`<div id="html_ad39d805a467247623c58bcad2cf668f" style="width: 100.0%; height: 100.0%;">關愛:慈幼中學</div>`)[0];
+            popup_c27182b298da139b26f8622e37fc315f.setContent(html_ad39d805a467247623c58bcad2cf668f);
+        
+
+        marker_6fcb2ba73a90555960e5220e5ea2d6d5.bindPopup(popup_c27182b298da139b26f8622e37fc315f)
+        .openPopup();
+
+        
+    
+    
+            var marker_cebb3f7eff67a0f2a5f2634648fc9160 = L.marker(
+                [22.206846568350898, 113.55060435362492],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_0aa47a35d1da8e2ab60779f251d5e646 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_cebb3f7eff67a0f2a5f2634648fc9160.setIcon(icon_0aa47a35d1da8e2ab60779f251d5e646);
+        
+    
+        var popup_baa6831b26e7abd2082f4a2766afae7b = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_91249d45dbe104fe3ecae57bb04c5ecd = $(`<div id="html_91249d45dbe104fe3ecae57bb04c5ecd" style="width: 100.0%; height: 100.0%;">關愛:望廈體育中心三樓</div>`)[0];
+            popup_baa6831b26e7abd2082f4a2766afae7b.setContent(html_91249d45dbe104fe3ecae57bb04c5ecd);
+        
+
+        marker_cebb3f7eff67a0f2a5f2634648fc9160.bindPopup(popup_baa6831b26e7abd2082f4a2766afae7b)
+        .openPopup();
+
+        
+    
+    
+            var marker_a7e79d0bc0e7f3c9e59de21efcfaa005 = L.marker(
+                [22.196662974488, 113.54707812458804],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_d4e24bfac438707bb195f783bd857449 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_a7e79d0bc0e7f3c9e59de21efcfaa005.setIcon(icon_d4e24bfac438707bb195f783bd857449);
+        
+    
+        var popup_e64cbf4a13833e0f9ad617f3ebe18030 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_3932f0a9dfa5a71bab11f7990cb03f7e = $(`<div id="html_3932f0a9dfa5a71bab11f7990cb03f7e" style="width: 100.0%; height: 100.0%;">關愛:塔石體育館B館</div>`)[0];
+            popup_e64cbf4a13833e0f9ad617f3ebe18030.setContent(html_3932f0a9dfa5a71bab11f7990cb03f7e);
+        
+
+        marker_a7e79d0bc0e7f3c9e59de21efcfaa005.bindPopup(popup_e64cbf4a13833e0f9ad617f3ebe18030)
+        .openPopup();
+
+        
+    
+    
+            var marker_23a77b89828a6e57d0ea0e52ecbfc14f = L.marker(
+                [22.213451457074093, 113.55107579002505],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_19cde06fb34da1b639f8b392e2ff8974 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_23a77b89828a6e57d0ea0e52ecbfc14f.setIcon(icon_19cde06fb34da1b639f8b392e2ff8974);
+        
+    
+        var popup_8f94ef96283f0a5b46c7e7e5992f5eaf = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_fb78b5a63a98eeeaa89055550175eab5 = $(`<div id="html_fb78b5a63a98eeeaa89055550175eab5" style="width: 100.0%; height: 100.0%;">關愛:澳門坊眾學校</div>`)[0];
+            popup_8f94ef96283f0a5b46c7e7e5992f5eaf.setContent(html_fb78b5a63a98eeeaa89055550175eab5);
+        
+
+        marker_23a77b89828a6e57d0ea0e52ecbfc14f.bindPopup(popup_8f94ef96283f0a5b46c7e7e5992f5eaf)
+        .openPopup();
+
+        
+    
+    
+            var marker_4f127afd00594047c09849913f28f2af = L.marker(
+                [22.153955, 113.552365],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_4caf9fb5d6f8f50d3ad3fe5c04c77700 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_4f127afd00594047c09849913f28f2af.setIcon(icon_4caf9fb5d6f8f50d3ad3fe5c04c77700);
+        
+    
+        var popup_d20f9e1b940013b382bb7672b56127ca = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_729dce5efdd13787c97e6329abea0a1f = $(`<div id="html_729dce5efdd13787c97e6329abea0a1f" style="width: 100.0%; height: 100.0%;">關愛:奧林匹克體育中心運動場乒乓球室</div>`)[0];
+            popup_d20f9e1b940013b382bb7672b56127ca.setContent(html_729dce5efdd13787c97e6329abea0a1f);
+        
+
+        marker_4f127afd00594047c09849913f28f2af.bindPopup(popup_d20f9e1b940013b382bb7672b56127ca)
+        .openPopup();
+
+        
+    
+    
+            var marker_222cf3a6e06747aadc4ec14c512bb961 = L.marker(
+                [22.12879331551369, 113.5606043491761],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_cc9b7c3062bf4f29f7729070e7c00c5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_222cf3a6e06747aadc4ec14c512bb961.setIcon(icon_cc9b7c3062bf4f29f7729070e7c00c5c);
+        
+    
+        var popup_a4ced71fb51b0ce44fc6c7d7ad071544 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_abb980da9bc4ccb3866f380ca1d5b764 = $(`<div id="html_abb980da9bc4ccb3866f380ca1d5b764" style="width: 100.0%; height: 100.0%;">關愛:石排灣公立學校</div>`)[0];
+            popup_a4ced71fb51b0ce44fc6c7d7ad071544.setContent(html_abb980da9bc4ccb3866f380ca1d5b764);
+        
+
+        marker_222cf3a6e06747aadc4ec14c512bb961.bindPopup(popup_a4ced71fb51b0ce44fc6c7d7ad071544)
+        .openPopup();
+
+        
+    
+    
+            var marker_8d8278f9052195c1999287474bdf8cee = L.marker(
+                [22.211940425870537, 113.54401237030561],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_a200b2e565fc03a1452d3100b552af56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8d8278f9052195c1999287474bdf8cee.setIcon(icon_a200b2e565fc03a1452d3100b552af56);
+        
+    
+        var popup_5861a84b14742ee0d56a0156f34c9449 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_c6e6ec3c949774a064020c09ea98579e = $(`<div id="html_c6e6ec3c949774a064020c09ea98579e" style="width: 100.0%; height: 100.0%;">市民:青洲坊活動中心</div>`)[0];
+            popup_5861a84b14742ee0d56a0156f34c9449.setContent(html_c6e6ec3c949774a064020c09ea98579e);
+        
+
+        marker_8d8278f9052195c1999287474bdf8cee.bindPopup(popup_5861a84b14742ee0d56a0156f34c9449)
+        .openPopup();
+
+        
+    
+    
+            var marker_3aa7b2ade9cd43a23d4671f740bd1e4e = L.marker(
+                [22.21378554505762, 113.5447798401317],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_ccb63b6318eb1540fbc08153945133f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3aa7b2ade9cd43a23d4671f740bd1e4e.setIcon(icon_ccb63b6318eb1540fbc08153945133f7);
+        
+    
+        var popup_7d3a753f54ad3ab37985d5dae6a2e07a = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_056c0777ad39855d74624a836f27f7b0 = $(`<div id="html_056c0777ad39855d74624a836f27f7b0" style="width: 100.0%; height: 100.0%;">市民:鄭觀應公立學校</div>`)[0];
+            popup_7d3a753f54ad3ab37985d5dae6a2e07a.setContent(html_056c0777ad39855d74624a836f27f7b0);
+        
+
+        marker_3aa7b2ade9cd43a23d4671f740bd1e4e.bindPopup(popup_7d3a753f54ad3ab37985d5dae6a2e07a)
+        .openPopup();
+
+        
+    
+    
+            var marker_b6e4f8d82763df494071d3a94aabccad = L.marker(
+                [22.214919579608562, 113.54803498704487],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_b6fc1bb2d862060c0a98a13847104d72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b6e4f8d82763df494071d3a94aabccad.setIcon(icon_b6fc1bb2d862060c0a98a13847104d72);
+        
+    
+        var popup_95bd141a489f472559a1fe77c5d13495 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_fcb2dccd69cdf91215e676087f66de58 = $(`<div id="html_fcb2dccd69cdf91215e676087f66de58" style="width: 100.0%; height: 100.0%;">市民:工人體育場一樓</div>`)[0];
+            popup_95bd141a489f472559a1fe77c5d13495.setContent(html_fcb2dccd69cdf91215e676087f66de58);
+        
+
+        marker_b6e4f8d82763df494071d3a94aabccad.bindPopup(popup_95bd141a489f472559a1fe77c5d13495)
+        .openPopup();
+
+        
+    
+    
+            var marker_0b7b231de0d66f6101e7996f6328231a = L.marker(
+                [22.21311373659406, 113.55246838182529],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_f4a4be2e2b9a7d5d7a284e4ca28b1e41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0b7b231de0d66f6101e7996f6328231a.setIcon(icon_f4a4be2e2b9a7d5d7a284e4ca28b1e41);
+        
+    
+        var popup_c60ae853c67f6cc65c1b664ce03b6dee = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_e3cc9745c3c836a920ac712bc81949f6 = $(`<div id="html_e3cc9745c3c836a920ac712bc81949f6" style="width: 100.0%; height: 100.0%;">市民:鏡平學校（中學部）</div>`)[0];
+            popup_c60ae853c67f6cc65c1b664ce03b6dee.setContent(html_e3cc9745c3c836a920ac712bc81949f6);
+        
+
+        marker_0b7b231de0d66f6101e7996f6328231a.bindPopup(popup_c60ae853c67f6cc65c1b664ce03b6dee)
+        .openPopup();
+
+        
+    
+    
+            var marker_0b675e78efb644cc6fbb597322894bd4 = L.marker(
+                [22.210377043949713, 113.55349592846376],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_b1212b5fd4f161bbe9ff8a2d1c165d11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0b675e78efb644cc6fbb597322894bd4.setIcon(icon_b1212b5fd4f161bbe9ff8a2d1c165d11);
+        
+    
+        var popup_a86a01ca6a9a89e4cd9407fa0d2c801d = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_a9d45077bf9d231b360ee40ba73e2814 = $(`<div id="html_a9d45077bf9d231b360ee40ba73e2814" style="width: 100.0%; height: 100.0%;">市民:中葡職業技術學校體育館</div>`)[0];
+            popup_a86a01ca6a9a89e4cd9407fa0d2c801d.setContent(html_a9d45077bf9d231b360ee40ba73e2814);
+        
+
+        marker_0b675e78efb644cc6fbb597322894bd4.bindPopup(popup_a86a01ca6a9a89e4cd9407fa0d2c801d)
+        .openPopup();
+
+        
+    
+    
+            var marker_2742096a147de50461c7ef0d469805d1 = L.marker(
+                [22.206175421261765, 113.55850176082018],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_b95bb0a5cb47f382993ab1f1afc04f5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2742096a147de50461c7ef0d469805d1.setIcon(icon_b95bb0a5cb47f382993ab1f1afc04f5b);
+        
+    
+        var popup_162c3bc237197c4d2514be7b600f0844 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_c6c491b68eceec3a5d577aca6f7db2a4 = $(`<div id="html_c6c491b68eceec3a5d577aca6f7db2a4" style="width: 100.0%; height: 100.0%;">市民:聖公會（澳門）蔡高中學</div>`)[0];
+            popup_162c3bc237197c4d2514be7b600f0844.setContent(html_c6c491b68eceec3a5d577aca6f7db2a4);
+        
+
+        marker_2742096a147de50461c7ef0d469805d1.bindPopup(popup_162c3bc237197c4d2514be7b600f0844)
+        .openPopup();
+
+        
+    
+    
+            var marker_420585fb3c2bf95981fe2bf29c1c7808 = L.marker(
+                [22.203837263420144, 113.55262183438299],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_c3a9f16ccb77cd209099cd0802b6da46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_420585fb3c2bf95981fe2bf29c1c7808.setIcon(icon_c3a9f16ccb77cd209099cd0802b6da46);
+        
+    
+        var popup_dd2861559f35c93901e8465cb0644226 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_5bbb0abbc89a87dc996cc5ad52951f63 = $(`<div id="html_5bbb0abbc89a87dc996cc5ad52951f63" style="width: 100.0%; height: 100.0%;">市民:鮑思高粵華小學</div>`)[0];
+            popup_dd2861559f35c93901e8465cb0644226.setContent(html_5bbb0abbc89a87dc996cc5ad52951f63);
+        
+
+        marker_420585fb3c2bf95981fe2bf29c1c7808.bindPopup(popup_dd2861559f35c93901e8465cb0644226)
+        .openPopup();
+
+        
+    
+    
+            var marker_7cb6e0b3818d801f35df3897e481bb8f = L.marker(
+                [22.206826702291394, 113.55056143828257],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_69ddc61ebb1ecb3f5e40b89f25c18aa9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7cb6e0b3818d801f35df3897e481bb8f.setIcon(icon_69ddc61ebb1ecb3f5e40b89f25c18aa9);
+        
+    
+        var popup_0d7994c538bf5849ecae3c8ecb27b791 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_118bdaad8fe54c157cf180cf69185e76 = $(`<div id="html_118bdaad8fe54c157cf180cf69185e76" style="width: 100.0%; height: 100.0%;">市民:望廈體育中心一樓</div>`)[0];
+            popup_0d7994c538bf5849ecae3c8ecb27b791.setContent(html_118bdaad8fe54c157cf180cf69185e76);
+        
+
+        marker_7cb6e0b3818d801f35df3897e481bb8f.bindPopup(popup_0d7994c538bf5849ecae3c8ecb27b791)
+        .openPopup();
+
+        
+    
+    
+            var marker_d8c56385241f585c9937ee27afb94a48 = L.marker(
+                [22.206505426944023, 113.53915299982002],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_fd6f5376a6f40bb146541fbd892a84f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d8c56385241f585c9937ee27afb94a48.setIcon(icon_fd6f5376a6f40bb146541fbd892a84f2);
+        
+    
+        var popup_74bb73f5f7730305e1c68643875595a7 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_410706efd4232f6743742397a4790fe8 = $(`<div id="html_410706efd4232f6743742397a4790fe8" style="width: 100.0%; height: 100.0%;">市民:廣大中學</div>`)[0];
+            popup_74bb73f5f7730305e1c68643875595a7.setContent(html_410706efd4232f6743742397a4790fe8);
+        
+
+        marker_d8c56385241f585c9937ee27afb94a48.bindPopup(popup_74bb73f5f7730305e1c68643875595a7)
+        .openPopup();
+
+        
+    
+    
+            var marker_e19ef53c5f229c2f39f6655eca935a0f = L.marker(
+                [22.205101485768772, 113.5423388139721],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_b89894de9cc5ad06e2ca674833219239 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e19ef53c5f229c2f39f6655eca935a0f.setIcon(icon_b89894de9cc5ad06e2ca674833219239);
+        
+    
+        var popup_422eadd45d791fd8b9aa463ddd9ca077 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_2f6f5697bac559da43e0e33366a48931 = $(`<div id="html_2f6f5697bac559da43e0e33366a48931" style="width: 100.0%; height: 100.0%;">市民:勞校中學附屬幼稚園</div>`)[0];
+            popup_422eadd45d791fd8b9aa463ddd9ca077.setContent(html_2f6f5697bac559da43e0e33366a48931);
+        
+
+        marker_e19ef53c5f229c2f39f6655eca935a0f.bindPopup(popup_422eadd45d791fd8b9aa463ddd9ca077)
+        .openPopup();
+
+        
+    
+    
+            var marker_f3f0a47aa7129ea07c12dfed3c1fbe5e = L.marker(
+                [22.202498081253157, 113.54368201164542],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_9a967492616fc7241a007f07fa7f9a35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f3f0a47aa7129ea07c12dfed3c1fbe5e.setIcon(icon_9a967492616fc7241a007f07fa7f9a35);
+        
+    
+        var popup_cff2ae485d46bce07ffe08ec8199afa7 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_c362d0764130d49fb3c3c4d70e1acf5c = $(`<div id="html_c362d0764130d49fb3c3c4d70e1acf5c" style="width: 100.0%; height: 100.0%;">市民:婦女聯合總會綜合服務大樓</div>`)[0];
+            popup_cff2ae485d46bce07ffe08ec8199afa7.setContent(html_c362d0764130d49fb3c3c4d70e1acf5c);
+        
+
+        marker_f3f0a47aa7129ea07c12dfed3c1fbe5e.bindPopup(popup_cff2ae485d46bce07ffe08ec8199afa7)
+        .openPopup();
+
+        
+    
+    
+            var marker_38ada72b82e22f311e58a284d182bccd = L.marker(
+                [22.202653905719014, 113.53719359221763],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_23559037d255d72ee825fb84bc14581b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_38ada72b82e22f311e58a284d182bccd.setIcon(icon_23559037d255d72ee825fb84bc14581b);
+        
+    
+        var popup_3146c93cb97f630ffb225c9eeacfd3c1 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_32d7b1d792a9397ba089944bf2737df8 = $(`<div id="html_32d7b1d792a9397ba089944bf2737df8" style="width: 100.0%; height: 100.0%;">市民:沙梨頭活動中心</div>`)[0];
+            popup_3146c93cb97f630ffb225c9eeacfd3c1.setContent(html_32d7b1d792a9397ba089944bf2737df8);
+        
+
+        marker_38ada72b82e22f311e58a284d182bccd.bindPopup(popup_3146c93cb97f630ffb225c9eeacfd3c1)
+        .openPopup();
+
+        
+    
+    
+            var marker_8acd93f1755aadcaa05c5b5d884c901b = L.marker(
+                [22.201770269893775, 113.54818144752825],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_5e49d08de48eabcd86af74d84e58f70a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8acd93f1755aadcaa05c5b5d884c901b.setIcon(icon_5e49d08de48eabcd86af74d84e58f70a);
+        
+    
+        var popup_cfce02e399e4f07751bb866006579347 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_286174d31c8bf65c5c2fd7982d6c7e54 = $(`<div id="html_286174d31c8bf65c5c2fd7982d6c7e54" style="width: 100.0%; height: 100.0%;">市民:培正中學</div>`)[0];
+            popup_cfce02e399e4f07751bb866006579347.setContent(html_286174d31c8bf65c5c2fd7982d6c7e54);
+        
+
+        marker_8acd93f1755aadcaa05c5b5d884c901b.bindPopup(popup_cfce02e399e4f07751bb866006579347)
+        .openPopup();
+
+        
+    
+    
+            var marker_c634e720f0579ee1e05196cf5d5a73b3 = L.marker(
+                [22.19656503312182, 113.54710668800793],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_1210025d0eeb34a2461f7cd9193850de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c634e720f0579ee1e05196cf5d5a73b3.setIcon(icon_1210025d0eeb34a2461f7cd9193850de);
+        
+    
+        var popup_836f69c42b29263f29599810222ac40b = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_8abd3dd9a7e681eb387b49ce04dedc52 = $(`<div id="html_8abd3dd9a7e681eb387b49ce04dedc52" style="width: 100.0%; height: 100.0%;">市民:塔石體育館A館</div>`)[0];
+            popup_836f69c42b29263f29599810222ac40b.setContent(html_8abd3dd9a7e681eb387b49ce04dedc52);
+        
+
+        marker_c634e720f0579ee1e05196cf5d5a73b3.bindPopup(popup_836f69c42b29263f29599810222ac40b)
+        .openPopup();
+
+        
+    
+    
+            var marker_e7eb4722636cb8f39b0ae88fcd4f1911 = L.marker(
+                [22.19368339479434, 113.55185274025692],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_4e4f0c19986b4b6479ea30c870d6fec9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e7eb4722636cb8f39b0ae88fcd4f1911.setIcon(icon_4e4f0c19986b4b6479ea30c870d6fec9);
+        
+    
+        var popup_1e2d4a9f360b14dd8c2c9de50fcdb10f = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_b2444985387765df494f54b5d1cf698a = $(`<div id="html_b2444985387765df494f54b5d1cf698a" style="width: 100.0%; height: 100.0%;">市民:澳門理工大學懷遠樓展覽廳</div>`)[0];
+            popup_1e2d4a9f360b14dd8c2c9de50fcdb10f.setContent(html_b2444985387765df494f54b5d1cf698a);
+        
+
+        marker_e7eb4722636cb8f39b0ae88fcd4f1911.bindPopup(popup_1e2d4a9f360b14dd8c2c9de50fcdb10f)
+        .openPopup();
+
+        
+    
+    
+            var marker_1d6ed27bf5e31951f84ebb2272186c0c = L.marker(
+                [22.189388126814023, 113.55539310150117],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_3e252b04118a9f809648ae6fdadd8c14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1d6ed27bf5e31951f84ebb2272186c0c.setIcon(icon_3e252b04118a9f809648ae6fdadd8c14);
+        
+    
+        var popup_8db2348d0a1c8b69009d033b2d39820f = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_5d995ea1ed1de7952bbc215351b3eabb = $(`<div id="html_5d995ea1ed1de7952bbc215351b3eabb" style="width: 100.0%; height: 100.0%;">市民:澳門文化中心</div>`)[0];
+            popup_8db2348d0a1c8b69009d033b2d39820f.setContent(html_5d995ea1ed1de7952bbc215351b3eabb);
+        
+
+        marker_1d6ed27bf5e31951f84ebb2272186c0c.bindPopup(popup_8db2348d0a1c8b69009d033b2d39820f)
+        .openPopup();
+
+        
+    
+    
+            var marker_b16001efefae907bc90ffdde50db7a94 = L.marker(
+                [22.196684874459347, 113.5412930515745],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_877700f14365ad5cfa5407f4e74b44b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b16001efefae907bc90ffdde50db7a94.setIcon(icon_877700f14365ad5cfa5407f4e74b44b7);
+        
+    
+        var popup_f05cf53527b7b85e88b69bc58f754e4b = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_341be764f1b4ecb2e42b0d310d4507cd = $(`<div id="html_341be764f1b4ecb2e42b0d310d4507cd" style="width: 100.0%; height: 100.0%;">市民:利瑪竇中學</div>`)[0];
+            popup_f05cf53527b7b85e88b69bc58f754e4b.setContent(html_341be764f1b4ecb2e42b0d310d4507cd);
+        
+
+        marker_b16001efefae907bc90ffdde50db7a94.bindPopup(popup_f05cf53527b7b85e88b69bc58f754e4b)
+        .openPopup();
+
+        
+    
+    
+            var marker_a7365454717b6932500a6e09925ce2eb = L.marker(
+                [22.19155051942023, 113.53690326171741],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_10e379030650034d51f29d7f6d11db56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a7365454717b6932500a6e09925ce2eb.setIcon(icon_10e379030650034d51f29d7f6d11db56);
+        
+    
+        var popup_0d7bd40d8c47ddb642649e6973dd00a3 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_b24ce6cf4ffd8052429545d12ccb5e4d = $(`<div id="html_b24ce6cf4ffd8052429545d12ccb5e4d" style="width: 100.0%; height: 100.0%;">市民:聖若瑟教區中學第二校</div>`)[0];
+            popup_0d7bd40d8c47ddb642649e6973dd00a3.setContent(html_b24ce6cf4ffd8052429545d12ccb5e4d);
+        
+
+        marker_a7365454717b6932500a6e09925ce2eb.bindPopup(popup_0d7bd40d8c47ddb642649e6973dd00a3)
+        .openPopup();
+
+        
+    
+    
+            var marker_452ac1543b8ab1999306744734e4e89c = L.marker(
+                [22.189389958243627, 113.53513889797087],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_63cd67d416897a611e7ce3cc3d7af0bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_452ac1543b8ab1999306744734e4e89c.setIcon(icon_63cd67d416897a611e7ce3cc3d7af0bc);
+        
+    
+        var popup_6d32aedacfec4f0d75905b02ac0c0425 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_b2de93d461be43d7b42ec2131dac7287 = $(`<div id="html_b2de93d461be43d7b42ec2131dac7287" style="width: 100.0%; height: 100.0%;">市民:海星中學</div>`)[0];
+            popup_6d32aedacfec4f0d75905b02ac0c0425.setContent(html_b2de93d461be43d7b42ec2131dac7287);
+        
+
+        marker_452ac1543b8ab1999306744734e4e89c.bindPopup(popup_6d32aedacfec4f0d75905b02ac0c0425)
+        .openPopup();
+
+        
+    
+    
+            var marker_a8b21e32fa981f8db3ca266866dc4aec = L.marker(
+                [22.154765112899597, 113.55335848246052],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_ccef76e2d70dddde6de5bc17a09f9079 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a8b21e32fa981f8db3ca266866dc4aec.setIcon(icon_ccef76e2d70dddde6de5bc17a09f9079);
+        
+    
+        var popup_c54b52f96eaaae278f84f959347af291 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_d48a9f93d6ac448d1bb94bc4b1921cb5 = $(`<div id="html_d48a9f93d6ac448d1bb94bc4b1921cb5" style="width: 100.0%; height: 100.0%;">市民:奧林匹克體育中心室內體育館</div>`)[0];
+            popup_c54b52f96eaaae278f84f959347af291.setContent(html_d48a9f93d6ac448d1bb94bc4b1921cb5);
+        
+
+        marker_a8b21e32fa981f8db3ca266866dc4aec.bindPopup(popup_c54b52f96eaaae278f84f959347af291)
+        .openPopup();
+
+        
+    
+    
+            var marker_c6605f25ab4f03a98a65eda16f4d40d2 = L.marker(
+                [22.153104878810304, 113.55775369020505],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_159bf69637187b6f29436aa725c619ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c6605f25ab4f03a98a65eda16f4d40d2.setIcon(icon_159bf69637187b6f29436aa725c619ee);
+        
+    
+        var popup_b0d49865aae08fbb59715141c1ac06c6 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_9a203b55d3e099fdfa33a1b76ad13a52 = $(`<div id="html_9a203b55d3e099fdfa33a1b76ad13a52" style="width: 100.0%; height: 100.0%;">市民:嘉模會堂</div>`)[0];
+            popup_b0d49865aae08fbb59715141c1ac06c6.setContent(html_9a203b55d3e099fdfa33a1b76ad13a52);
+        
+
+        marker_c6605f25ab4f03a98a65eda16f4d40d2.bindPopup(popup_b0d49865aae08fbb59715141c1ac06c6)
+        .openPopup();
+
+        
+    
+    
+            var marker_55cf9b488acdd53869c3ccccf4517e59 = L.marker(
+                [22.1652284089298, 113.5737224666455],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_69b3e1aeb1c1fb4915f65bdc43badc9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_55cf9b488acdd53869c3ccccf4517e59.setIcon(icon_69b3e1aeb1c1fb4915f65bdc43badc9e);
+        
+    
+        var popup_089293322bf4af5b8f924444c327e893 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_204a89f098c872ea3993081a91902d06 = $(`<div id="html_204a89f098c872ea3993081a91902d06" style="width: 100.0%; height: 100.0%;">市民:北安客運碼頭</div>`)[0];
+            popup_089293322bf4af5b8f924444c327e893.setContent(html_204a89f098c872ea3993081a91902d06);
+        
+
+        marker_55cf9b488acdd53869c3ccccf4517e59.bindPopup(popup_089293322bf4af5b8f924444c327e893)
+        .openPopup();
+
+        
+    
+    
+            var marker_81912fae53493f0c050a7947528a3790 = L.marker(
+                [22.158823279047667, 113.56116509595377],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_39d15ff1bf0314a9f64057beadc1b983 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_81912fae53493f0c050a7947528a3790.setIcon(icon_39d15ff1bf0314a9f64057beadc1b983);
+        
+    
+        var popup_7cd9ce03a477718947caf3c3076f975a = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_15732040ff796dfe4d9aa2d4b4948d69 = $(`<div id="html_15732040ff796dfe4d9aa2d4b4948d69" style="width: 100.0%; height: 100.0%;">市民:教青局親職教育中心 (湖畔)</div>`)[0];
+            popup_7cd9ce03a477718947caf3c3076f975a.setContent(html_15732040ff796dfe4d9aa2d4b4948d69);
+        
+
+        marker_81912fae53493f0c050a7947528a3790.bindPopup(popup_7cd9ce03a477718947caf3c3076f975a)
+        .openPopup();
+
+        
+    
+    
+            var marker_9633b5480b158a9ded729ad9d692e6ee = L.marker(
+                [22.11946595978308, 113.55223225342364],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_bd774b9c1a07850eea151f21a781de13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9633b5480b158a9ded729ad9d692e6ee.setIcon(icon_bd774b9c1a07850eea151f21a781de13);
+        
+    
+        var popup_b67ffad7c6cedda165153b3cf63dd11e = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_658e9c4f103dbdbccd71f2c4734cae78 = $(`<div id="html_658e9c4f103dbdbccd71f2c4734cae78" style="width: 100.0%; height: 100.0%;">市民:澳門保安部隊高等學校</div>`)[0];
+            popup_b67ffad7c6cedda165153b3cf63dd11e.setContent(html_658e9c4f103dbdbccd71f2c4734cae78);
+        
+
+        marker_9633b5480b158a9ded729ad9d692e6ee.bindPopup(popup_b67ffad7c6cedda165153b3cf63dd11e)
+        .openPopup();
+
+        
+    
+    
+            var marker_2eb3188a06c909ec39052e7a4812537a = L.marker(
+                [22.201282233836046, 113.54319823828257],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_25da9024c7526ec96ee4b6a8ac165e95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2eb3188a06c909ec39052e7a4812537a.setIcon(icon_25da9024c7526ec96ee4b6a8ac165e95);
+        
+    
+        var popup_621031fbb78e63b0b29308f95e35fa9f = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_3803126206659851fee46ae99ef6a910 = $(`<div id="html_3803126206659851fee46ae99ef6a910" style="width: 100.0%; height: 100.0%;">市民:街總石排灣家庭及社區綜合服務中心</div>`)[0];
+            popup_621031fbb78e63b0b29308f95e35fa9f.setContent(html_3803126206659851fee46ae99ef6a910);
+        
+
+        marker_2eb3188a06c909ec39052e7a4812537a.bindPopup(popup_621031fbb78e63b0b29308f95e35fa9f)
+        .openPopup();
+
+        
+    
+    
+            var marker_12f14aa7104f1ef6980f3d5de66769ed = L.marker(
+                [22.130247992021186, 113.54576881239468],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_2b261389e6a3e7a42352eacd1138308f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_12f14aa7104f1ef6980f3d5de66769ed.setIcon(icon_2b261389e6a3e7a42352eacd1138308f);
+        
+    
+        var popup_129f710be4f901fa497e54afddc3216c = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_b1ff0e03dddda1c7fb4b7097c15327d7 = $(`<div id="html_b1ff0e03dddda1c7fb4b7097c15327d7" style="width: 100.0%; height: 100.0%;">市民:澳門大學</div>`)[0];
+            popup_129f710be4f901fa497e54afddc3216c.setContent(html_b1ff0e03dddda1c7fb4b7097c15327d7);
+        
+
+        marker_12f14aa7104f1ef6980f3d5de66769ed.bindPopup(popup_129f710be4f901fa497e54afddc3216c)
+        .openPopup();
+
+        
+    
+    
+            var marker_e6bc44bbc8b31d6461b23b1a7ebfb199 = L.marker(
+                [22.147745911396417, 113.55891919843097],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_ce8cc1663b96821ec67f6e2b11bc615c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e6bc44bbc8b31d6461b23b1a7ebfb199.setIcon(icon_ce8cc1663b96821ec67f6e2b11bc615c);
+        
+    
+        var popup_eb6513be655f550c8c7936cd1620f72a = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_c2afb04276b39e527e339c16fdc3bfa2 = $(`<div id="html_c2afb04276b39e527e339c16fdc3bfa2" style="width: 100.0%; height: 100.0%;">市民:威尼斯人展覽館A、B、C館</div>`)[0];
+            popup_eb6513be655f550c8c7936cd1620f72a.setContent(html_c2afb04276b39e527e339c16fdc3bfa2);
+        
+
+        marker_e6bc44bbc8b31d6461b23b1a7ebfb199.bindPopup(popup_eb6513be655f550c8c7936cd1620f72a)
+        .openPopup();
+
+        
+    
+    
+            var marker_ceeefb2f879ccdd90cf53637a9a4d888 = L.marker(
+                [22.19955001325455, 113.54267229324921],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_3a1d81f510f11abd33dc955821350f4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ceeefb2f879ccdd90cf53637a9a4d888.setIcon(icon_3a1d81f510f11abd33dc955821350f4c);
+        
+    
+        var popup_36efc1db2a0c6a1618b9de5938148ed8 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_6b32e62567e9add5eaee987c3029e8ff = $(`<div id="html_6b32e62567e9add5eaee987c3029e8ff" style="width: 100.0%; height: 100.0%;">市民:鏡湖醫院禮堂</div>`)[0];
+            popup_36efc1db2a0c6a1618b9de5938148ed8.setContent(html_6b32e62567e9add5eaee987c3029e8ff);
+        
+
+        marker_ceeefb2f879ccdd90cf53637a9a4d888.bindPopup(popup_36efc1db2a0c6a1618b9de5938148ed8)
+        .openPopup();
+
+        
+    
+    
+            var marker_b1d861059c59640ceb869815c9a36c2e = L.marker(
+                [22.212662495790727, 113.54169018557728],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_bb17f9b6efceb4fe4a8f96e5dc191132 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b1d861059c59640ceb869815c9a36c2e.setIcon(icon_bb17f9b6efceb4fe4a8f96e5dc191132);
+        
+    
+        var popup_888a1f015607131450c84d11314e489f = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_c745aae6bd32e7eb51fb4dc513a9514e = $(`<div id="html_c745aae6bd32e7eb51fb4dc513a9514e" style="width: 100.0%; height: 100.0%;">市民:南粵青茂口岸</div>`)[0];
+            popup_888a1f015607131450c84d11314e489f.setContent(html_c745aae6bd32e7eb51fb4dc513a9514e);
+        
+
+        marker_b1d861059c59640ceb869815c9a36c2e.bindPopup(popup_888a1f015607131450c84d11314e489f)
+        .openPopup();
+
+        
+    
+    
+            var marker_3135929c740ca4c79ed90c580b8456cf = L.marker(
+                [22.152518221233965, 113.57002870373216],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_3decc325394142c6e9a32371ab5886c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3135929c740ca4c79ed90c580b8456cf.setIcon(icon_3decc325394142c6e9a32371ab5886c0);
+        
+    
+        var popup_8729dd7798d3e978833b228543c5022f = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_6e0a61227207e6485304efdaf69e1941 = $(`<div id="html_6e0a61227207e6485304efdaf69e1941" style="width: 100.0%; height: 100.0%;">市民:科大體育館</div>`)[0];
+            popup_8729dd7798d3e978833b228543c5022f.setContent(html_6e0a61227207e6485304efdaf69e1941);
+        
+
+        marker_3135929c740ca4c79ed90c580b8456cf.bindPopup(popup_8729dd7798d3e978833b228543c5022f)
+        .openPopup();
+
+        
+    
+    
+            var marker_bb1f2274eed38ef374ddc92e92d81117 = L.marker(
+                [22.19548661296549, 113.55243639020506],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_85b82745ba6d418ad0a5b9e301cefab3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_bb1f2274eed38ef374ddc92e92d81117.setIcon(icon_85b82745ba6d418ad0a5b9e301cefab3);
+        
+    
+        var popup_26a03888c933c409cfaecd6b6e84c6ed = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_6d61ecb6566c60354ae13eb11dbd272a = $(`<div id="html_6d61ecb6566c60354ae13eb11dbd272a" style="width: 100.0%; height: 100.0%;">市民:綜藝館</div>`)[0];
+            popup_26a03888c933c409cfaecd6b6e84c6ed.setContent(html_6d61ecb6566c60354ae13eb11dbd272a);
+        
+
+        marker_bb1f2274eed38ef374ddc92e92d81117.bindPopup(popup_26a03888c933c409cfaecd6b6e84c6ed)
+        .openPopup();
+
+        
+    
+    
+            var marker_6c101125996842e57c9b21e97343b7d2 = L.marker(
+                [22.212097902027867, 113.55520951125719],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_8bd46f9863fa6a9a443688d7c9997058 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6c101125996842e57c9b21e97343b7d2.setIcon(icon_8bd46f9863fa6a9a443688d7c9997058);
+        
+    
+        var popup_f513c19a3e5dacf1fde790d1282f43a0 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_7f0be289cc7b1637818f6191e3dc56f3 = $(`<div id="html_7f0be289cc7b1637818f6191e3dc56f3" style="width: 100.0%; height: 100.0%;">市民:澳門浸信中學</div>`)[0];
+            popup_f513c19a3e5dacf1fde790d1282f43a0.setContent(html_7f0be289cc7b1637818f6191e3dc56f3);
+        
+
+        marker_6c101125996842e57c9b21e97343b7d2.bindPopup(popup_f513c19a3e5dacf1fde790d1282f43a0)
+        .openPopup();
+
+        
+    
+    
+            var marker_907c3e95860238343d2bd5f0fa0d6288 = L.marker(
+                [22.205940192784226, 113.54973542294023],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_bb4767cdc223a1a7bd8c77da73f51d4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_907c3e95860238343d2bd5f0fa0d6288.setIcon(icon_bb4767cdc223a1a7bd8c77da73f51d4a);
+        
+    
+        var popup_fb2ae79cc394e683cc58151d36175f5d = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_b5e5ddc018493d7d143b8a0591967762 = $(`<div id="html_b5e5ddc018493d7d143b8a0591967762" style="width: 100.0%; height: 100.0%;">市民:澳門江門同鄉會頤康活動中心</div>`)[0];
+            popup_fb2ae79cc394e683cc58151d36175f5d.setContent(html_b5e5ddc018493d7d143b8a0591967762);
+        
+
+        marker_907c3e95860238343d2bd5f0fa0d6288.bindPopup(popup_fb2ae79cc394e683cc58151d36175f5d)
+        .openPopup();
+
+        
+    
+    
+            var marker_ba7338f25cfd1fedb78ee02a4435f215 = L.marker(
+                [22.20758869629222, 113.54196826136945],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_5879bbb9f1fa4842822dcd7798bcc95b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ba7338f25cfd1fedb78ee02a4435f215.setIcon(icon_5879bbb9f1fa4842822dcd7798bcc95b);
+        
+    
+        var popup_4dc793cf9e13cb07d2381342082b2821 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_c3e1edb718b92d9646e6d523d8a3198d = $(`<div id="html_c3e1edb718b92d9646e6d523d8a3198d" style="width: 100.0%; height: 100.0%;">市民:澳門街坊會聯合總會綠楊長者日間護理中心</div>`)[0];
+            popup_4dc793cf9e13cb07d2381342082b2821.setContent(html_c3e1edb718b92d9646e6d523d8a3198d);
+        
+
+        marker_ba7338f25cfd1fedb78ee02a4435f215.bindPopup(popup_4dc793cf9e13cb07d2381342082b2821)
+        .openPopup();
+
+        
+    
+    
+            var marker_eb48dca36c3e253dbb03c4632022d760 = L.marker(
+                [22.206222896552017, 113.5419408626693],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_000f3ca5f719b59f09e839bd36f8a578 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_eb48dca36c3e253dbb03c4632022d760.setIcon(icon_000f3ca5f719b59f09e839bd36f8a578);
+        
+    
+        var popup_bc9072773608474cadb42be20bb12d82 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_975a6cd3f9fcabe16bafb876f3135387 = $(`<div id="html_975a6cd3f9fcabe16bafb876f3135387" style="width: 100.0%; height: 100.0%;">市民:信和醫療中心</div>`)[0];
+            popup_bc9072773608474cadb42be20bb12d82.setContent(html_975a6cd3f9fcabe16bafb876f3135387);
+        
+
+        marker_eb48dca36c3e253dbb03c4632022d760.bindPopup(popup_bc9072773608474cadb42be20bb12d82)
+        .openPopup();
+
+        
+    
+    
+            var marker_30228582133eaec8b508de09d8f9ae9a = L.marker(
+                [22.205626217963108, 113.54604431559638],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_f58adc085c597b30a03b9bcbd4c240a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_30228582133eaec8b508de09d8f9ae9a.setIcon(icon_f58adc085c597b30a03b9bcbd4c240a0);
+        
+    
+        var popup_b0e43f09b6206d8a0edb783e559ed942 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_6f9ad096dfd719bd3cf583f924993693 = $(`<div id="html_6f9ad096dfd719bd3cf583f924993693" style="width: 100.0%; height: 100.0%;">市民:嘉諾撒聖心英文中學</div>`)[0];
+            popup_b0e43f09b6206d8a0edb783e559ed942.setContent(html_6f9ad096dfd719bd3cf583f924993693);
+        
+
+        marker_30228582133eaec8b508de09d8f9ae9a.bindPopup(popup_b0e43f09b6206d8a0edb783e559ed942)
+        .openPopup();
+
+        
+    
+    
+            var marker_b6ae10b209799e581896d7d8a29c6833 = L.marker(
+                [22.199713839552015, 113.539114437532],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_24c4b001e340591ec88e7eb310dc6c02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b6ae10b209799e581896d7d8a29c6833.setIcon(icon_24c4b001e340591ec88e7eb310dc6c02);
+        
+    
+        var popup_69ddfadb2f3b9b2095bf21d702c1c15e = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_5b7ae1213805ac621e94efdc4d66d275 = $(`<div id="html_5b7ae1213805ac621e94efdc4d66d275" style="width: 100.0%; height: 100.0%;">市民:東南學校-中學部</div>`)[0];
+            popup_69ddfadb2f3b9b2095bf21d702c1c15e.setContent(html_5b7ae1213805ac621e94efdc4d66d275);
+        
+
+        marker_b6ae10b209799e581896d7d8a29c6833.bindPopup(popup_69ddfadb2f3b9b2095bf21d702c1c15e)
+        .openPopup();
+
+        
+    
+    
+            var marker_42f8176817e49db8e097e825ea2e2d80 = L.marker(
+                [22.18707379254816, 113.54841498928303],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_b129151157653bb8f87b9bd9494371fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_42f8176817e49db8e097e825ea2e2d80.setIcon(icon_b129151157653bb8f87b9bd9494371fd);
+        
+    
+        var popup_e6b7cca3f66ca565cf065d54ce11d2a3 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_f967b3fd93d116d05b708b13f9c6d625 = $(`<div id="html_f967b3fd93d116d05b708b13f9c6d625" style="width: 100.0%; height: 100.0%;">市民:澳門美高梅大宴會廳</div>`)[0];
+            popup_e6b7cca3f66ca565cf065d54ce11d2a3.setContent(html_f967b3fd93d116d05b708b13f9c6d625);
+        
+
+        marker_42f8176817e49db8e097e825ea2e2d80.bindPopup(popup_e6b7cca3f66ca565cf065d54ce11d2a3)
+        .openPopup();
+
+        
+    
+    
+            var marker_605f308cc9fe15f5668bedb0a4852adb = L.marker(
+                [22.184629583650246, 113.53136895873185],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_2391e3d9b20b728a021daa07dd2ae179 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_605f308cc9fe15f5668bedb0a4852adb.setIcon(icon_2391e3d9b20b728a021daa07dd2ae179);
+        
+    
+        var popup_5201fa9c7b217f08d5bdc293eaecff6b = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_e65ff6047569a3b9c9eab06622251397 = $(`<div id="html_e65ff6047569a3b9c9eab06622251397" style="width: 100.0%; height: 100.0%;">市民:海事工房1號及2號</div>`)[0];
+            popup_5201fa9c7b217f08d5bdc293eaecff6b.setContent(html_e65ff6047569a3b9c9eab06622251397);
+        
+
+        marker_605f308cc9fe15f5668bedb0a4852adb.bindPopup(popup_5201fa9c7b217f08d5bdc293eaecff6b)
+        .openPopup();
+
+        
+    
+    
+            var marker_981482a5e3cb02982207c2d2c13be8b8 = L.marker(
+                [22.15186947624451, 113.55505153253385],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_b4134fe5790190119ea8c9337c27e382 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_981482a5e3cb02982207c2d2c13be8b8.setIcon(icon_b4134fe5790190119ea8c9337c27e382);
+        
+    
+        var popup_bc2f4ec50fe0e337cf054574a6067b55 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_824e1cda3121d5e9601d4def23088df4 = $(`<div id="html_824e1cda3121d5e9601d4def23088df4" style="width: 100.0%; height: 100.0%;">市民:聖公會氹仔青少年及家庭綜合服務中心</div>`)[0];
+            popup_bc2f4ec50fe0e337cf054574a6067b55.setContent(html_824e1cda3121d5e9601d4def23088df4);
+        
+
+        marker_981482a5e3cb02982207c2d2c13be8b8.bindPopup(popup_bc2f4ec50fe0e337cf054574a6067b55)
+        .openPopup();
+
+        
+    
+    
+            var marker_ab273e189ce805607f75c7abae4fd53a = L.marker(
+                [22.200015706596496, 113.54508308430967],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_3ce7ede15092eaf254641cfa82e8439e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ab273e189ce805607f75c7abae4fd53a.setIcon(icon_3ce7ede15092eaf254641cfa82e8439e);
+        
+    
+        var popup_f1c9678529bce9523f17c3ff4150449d = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_ca3fe38240d7073c4823e344b6c43f06 = $(`<div id="html_ca3fe38240d7073c4823e344b6c43f06" style="width: 100.0%; height: 100.0%;">市民:濠江中學附屬小學</div>`)[0];
+            popup_f1c9678529bce9523f17c3ff4150449d.setContent(html_ca3fe38240d7073c4823e344b6c43f06);
+        
+
+        marker_ab273e189ce805607f75c7abae4fd53a.bindPopup(popup_f1c9678529bce9523f17c3ff4150449d)
+        .openPopup();
+
+        
+    
+    
+            var marker_1818c491e325e550fc410cc8bb69854e = L.marker(
+                [22.115158736152623, 113.55042305543414],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_920d8547dc61b89e48a77ceff19e3508 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_1818c491e325e550fc410cc8bb69854e.setIcon(icon_920d8547dc61b89e48a77ceff19e3508);
+        
+    
+        var popup_c84052e3b71ebe018e909c79f4698a68 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_4de0571eaef7a5918a157c9485169b2f = $(`<div id="html_4de0571eaef7a5918a157c9485169b2f" style="width: 100.0%; height: 100.0%;">流動:路環中葡學校(首日 0900至2200)</div>`)[0];
+            popup_c84052e3b71ebe018e909c79f4698a68.setContent(html_4de0571eaef7a5918a157c9485169b2f);
+        
+
+        marker_1818c491e325e550fc410cc8bb69854e.bindPopup(popup_c84052e3b71ebe018e909c79f4698a68)
+        .openPopup();
+
+        
+    
+    
+            var marker_0848f8649ea6b65ec5aeaef4112a2792 = L.marker(
+                [22.11810041451303, 113.56897696834736],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_3aa3f6e6de1ee951045faa9f80775644 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_0848f8649ea6b65ec5aeaef4112a2792.setIcon(icon_3aa3f6e6de1ee951045faa9f80775644);
+        
+    
+        var popup_85da6d8299ddbca44d10e65e33721028 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_fe4ad1adbee9f9c0dd5550b003cc578d = $(`<div id="html_fe4ad1adbee9f9c0dd5550b003cc578d" style="width: 100.0%; height: 100.0%;">流動:黑沙公園(翌日 0900至1800)</div>`)[0];
+            popup_85da6d8299ddbca44d10e65e33721028.setContent(html_fe4ad1adbee9f9c0dd5550b003cc578d);
+        
+
+        marker_0848f8649ea6b65ec5aeaef4112a2792.bindPopup(popup_85da6d8299ddbca44d10e65e33721028)
+        .openPopup();
+
+        
+    
+    
+            var marker_b18141892f6f35f266a087cb84ede2c3 = L.marker(
+                [22.158313007588653, 113.54257154223762],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_9e60ae521e91ccdf91d0c0d9025e19ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_b18141892f6f35f266a087cb84ede2c3.setIcon(icon_9e60ae521e91ccdf91d0c0d9025e19ec);
+        
+    
+        var popup_20ca99b7a776bd58cbc4090167010d1b = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_872c33eace685b63d50f4ffa1e131248 = $(`<div id="html_872c33eace685b63d50f4ffa1e131248" style="width: 100.0%; height: 100.0%;">流動:海洋花園衛生中心</div>`)[0];
+            popup_20ca99b7a776bd58cbc4090167010d1b.setContent(html_872c33eace685b63d50f4ffa1e131248);
+        
+
+        marker_b18141892f6f35f266a087cb84ede2c3.bindPopup(popup_20ca99b7a776bd58cbc4090167010d1b)
+        .openPopup();
+
+        
+    
+    
+            var marker_92ea2e33154281a4d5ec73b1580ae839 = L.marker(
+                [22.158484196827843, 113.55678519776332],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_ba8484c6fe449931d0e77c4f9e768798 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_92ea2e33154281a4d5ec73b1580ae839.setIcon(icon_ba8484c6fe449931d0e77c4f9e768798);
+        
+    
+        var popup_241c864f270f782d8709f7dce5a31bf7 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_71d319adc4e7d99de780e0eeea6ef9b4 = $(`<div id="html_71d319adc4e7d99de780e0eeea6ef9b4" style="width: 100.0%; height: 100.0%;">流動:澳門大學附屬應用學校</div>`)[0];
+            popup_241c864f270f782d8709f7dce5a31bf7.setContent(html_71d319adc4e7d99de780e0eeea6ef9b4);
+        
+
+        marker_92ea2e33154281a4d5ec73b1580ae839.bindPopup(popup_241c864f270f782d8709f7dce5a31bf7)
+        .openPopup();
+
+        
+    
+    
+            var marker_9f46d2c86717ead696007ba9affc15cc = L.marker(
+                [22.158484196827843, 113.55678519776332],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_c0735b71bd7c3977afc42925c316273b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_9f46d2c86717ead696007ba9affc15cc.setIcon(icon_c0735b71bd7c3977afc42925c316273b);
+        
+    
+        var popup_c071eb0a236b9b7262cf3b4fbd2400d5 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_9a0da47d496151401ff36ac7a5814948 = $(`<div id="html_9a0da47d496151401ff36ac7a5814948" style="width: 100.0%; height: 100.0%;">流動:澳門大學附屬應用學校（首日0900至2200）</div>`)[0];
+            popup_c071eb0a236b9b7262cf3b4fbd2400d5.setContent(html_9a0da47d496151401ff36ac7a5814948);
+        
+
+        marker_9f46d2c86717ead696007ba9affc15cc.bindPopup(popup_c071eb0a236b9b7262cf3b4fbd2400d5)
+        .openPopup();
+
+        
+    
+    
+            var marker_2c3f6063f27225aee29f4a648243239c = L.marker(
+                [22.16224113680594, 113.55961045358545],
+                {}
+            ).addTo(map_26f2bce61dff7d760ff31152d66b877e);
+        
+    
+            var icon_752f408fb49a26bc58112f50d4efed08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_2c3f6063f27225aee29f4a648243239c.setIcon(icon_752f408fb49a26bc58112f50d4efed08);
+        
+    
+        var popup_9de6fb4d37992bd7815d53afabf4d449 = L.popup({"autoClose": false, "maxWidth": 1000});
+
+        
+            var html_6ea1869284acb16853069ffb7d41638b = $(`<div id="html_6ea1869284acb16853069ffb7d41638b" style="width: 100.0%; height: 100.0%;">流動:聖公會中學(澳門)(翌日0900至1800)</div>`)[0];
+            popup_9de6fb4d37992bd7815d53afabf4d449.setContent(html_6ea1869284acb16853069ffb7d41638b);
+        
+
+        marker_2c3f6063f27225aee29f4a648243239c.bindPopup(popup_9de6fb4d37992bd7815d53afabf4d449)
+        .openPopup();
+
+        
+    
+</script>
