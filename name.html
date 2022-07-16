@@ -1,15 +1,21 @@
-
 <html>
 <head>
     <div id="box"></div>
     <br>
     <input type="text" id="myinput" value=box style="width: 500px ; height: 100px;">
 </head>
-<p><input id="btnOperate" type="button" value="選擇" onclick="static_num()" /></p>
-<body>    
-    <p><input type="checkbox" name="category" value="街坊會聯合總會社區服務大樓" />街坊會聯合總會社區服務大樓 </p>   
-    <p><input type="checkbox" name="category" value="慈幼中學" />慈幼中學</p>
-    <p><input type="checkbox" name="category" value="望廈體育館三樓" />望廈體育館三樓</p>    
+<p><input id="btnOperate" type="button" value="選擇及複制" onclick="static_num()" /></p>
+<body>   
+    <table border="0px" cellspacing="" height="110px" width="400px">
+        <tr>
+            <td>    <p><input type="checkbox" name="category" value="街坊會聯合總會社區服務大樓" />街坊會聯合總會社區服務大樓 </p></td>
+            <td>    <p><input type="checkbox" name="category" value="慈幼中學" />慈幼中學</p></td>
+        </tr>
+
+    
+    </table> 
+
+  
     <p><input type="checkbox" name="category" value="塔石體育館B館" />塔石體育館B館</p>    
     <p><input type="checkbox" name="category" value="澳門坊眾學校" />澳門坊眾學校</p>    
     <p><input type="checkbox" name="category" value="奧林匹克體育中心運動場乒乓球室" />奧林匹克體育中心運動場乒乓球室</p>    
@@ -70,6 +76,7 @@ function static_num()
 {            
     document.getElementById("btnOperate").onclick = function () {                
         let box = document.getElementById("box");
+
         let myinput = document.getElementById("myinput");
         var arr = new Array();                
         var items = document.getElementsByName("category");   
@@ -81,9 +88,14 @@ function static_num()
             }     
         } 
 
+//         copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+//   /* Copy the text inside the text field */
+//         box.innerHTML=navigator.clipboard.writeText(copyText.value);
         box.innerHTML = boxHtml;
         myinput.value = boxHtml;  
-           
+        myinput.select();
+        navigator.clipboard.writeText(myinput.value);           
     };        
 };    
 </script>
